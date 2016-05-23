@@ -1,0 +1,22 @@
+{
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+
+  "plugins": [
+    "react"
+  ],
+
+  "extends": [
+    "jsx"
+  ],
+
+  "rules": {
+    "react/no-did-update-set-state": 2,
+    "react/no-unknown-property": 2,
+    "react/prop-types": 2
+  }
+}
